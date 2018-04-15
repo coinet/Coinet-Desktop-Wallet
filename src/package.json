@@ -1,8 +1,8 @@
 {
-  "name": "Foxlet",
+  "name": "COINET",
   "version": "4.0",
   "main": "main.js",
   "window": {
-  	"icon": "img/rocket.png"
+  	"icon": "img/Iso_Coinet_Transparente.png"
   }
 }

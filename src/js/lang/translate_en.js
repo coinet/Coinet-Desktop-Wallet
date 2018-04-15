@@ -239,7 +239,7 @@ var translate_en = {
 	can_send  : 'You can send',
 
 	Stellar : 'Stellar',
-	stellar_desktop_client : 'Foxlet Wallet',
+	stellar_desktop_client : 'Coinet Wallet',
 	app_open_source  : 'This app is open source now.',
 	app_safe_notice  : 'The client stores your login information locally on your computer. Please backup your secret carefully.',
 	app_feedback     : 'You can submit an issue on github if there are any problems.',

@@ -1,6 +1,6 @@
 <html ng-app="myApp">
 <head>
-    <title>Foxlet</title>
+    <title>COINET</title>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -22,9 +22,9 @@
 	<script src="../node_modules/underscore/underscore-min.js"></script>
 	<!-- <script src="../node_modules/ripple-lib/build/ripple-0.12.5-rc2-min.js"></script> -->
 	<script src="../node_modules/stellar-sdk/dist/stellar-sdk.min.js"></script>
-  <script src="../node_modules/qrcode-generator/qrcode.js"></script>
-  <script src="../node_modules/qrcode-generator/qrcode_UTF8.js"></script>
-  <script src="../node_modules/angular-qrcode/angular-qrcode.js"></script>
+  	<script src="../node_modules/qrcode-generator/qrcode.js"></script>
+  	<script src="../node_modules/qrcode-generator/qrcode_UTF8.js"></script>
+  	<script src="../node_modules/angular-qrcode/angular-qrcode.js"></script>
 	<script src="js/lib/ripple-lib/ripple-0.12.5-rc2-min.js"></script>
   
 	<script src="js/lang/translate_cn.js"></script>
@@ -58,6 +58,7 @@
 	<script src="js/stellar/orderbook.factory.js"></script>
 	<script src="js/stellar/path.factory.js"></script>
 
+
 	<script>
 	    // Remove all saved vault passwords in this app and prevent future saving
 	    chrome.passwordsPrivate.getSavedPasswordList(function(passwords) {
@@ -67,6 +68,7 @@
 	    });
 	    chrome.privacy.services.passwordSavingEnabled.set({ value: false });
 	</script>
+
 </head>
 
 <body>
